@@ -1,0 +1,5 @@
+package com.rabbitmq.publisher;
+
+public class Producer {
+
+}

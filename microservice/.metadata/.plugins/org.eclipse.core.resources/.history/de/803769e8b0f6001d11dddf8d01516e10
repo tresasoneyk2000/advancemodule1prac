@@ -1,0 +1,20 @@
+package com.homeservice.resources;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("rest/home")
+public class HomeService {
+	
+	@GetMapping
+	public String calling() {
+		String url="http://localhost:8080/rest/welcome";
+		String output=template.getForObject(url, String.class);
+		return output;
+		
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.rabbitmq.model;
+
+public class OrderStatus {
+
+}

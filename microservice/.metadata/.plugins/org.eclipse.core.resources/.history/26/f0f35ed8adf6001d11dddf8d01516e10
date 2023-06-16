@@ -1,0 +1,13 @@
+package comwelcomeservice;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class WelcomeserviceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(WelcomeserviceApplication.class, args);
+	}
+
+}

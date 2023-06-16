@@ -1,0 +1,24 @@
+package com.feignclient.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.feignclient.feignclientinterface;
+
+@RestController
+@RequestMapping("feign")
+public class Controllerfeign {
+	
+	@Autowired
+	feignclientinterface feigninter;
+	@PostMapping("/savestudent")
+	
+	
+	
+	
+	
+	
+	
+
+}

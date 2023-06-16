@@ -1,0 +1,9 @@
+package com.feignclient;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+@FeignClient(value="feignclient",url = "http://localhost:8090/stud")
+
+public interface feignclientinterface {
+	
+}

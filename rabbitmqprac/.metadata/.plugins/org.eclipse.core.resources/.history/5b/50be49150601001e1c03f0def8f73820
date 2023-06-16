@@ -1,0 +1,10 @@
+package com.rabbitmq.model;
+
+@Data
+public class OrderStatus {
+	
+	private PurchaseOrder order;
+	private String status;
+	private String message;
+
+}

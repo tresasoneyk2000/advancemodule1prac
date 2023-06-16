@@ -1,0 +1,5 @@
+package comwelcomeservice.resources;
+
+public class WelcomeResource {
+
+}

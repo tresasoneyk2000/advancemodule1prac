@@ -1,0 +1,7 @@
+package com.rabbitmq.config;
+
+
+@Configuration
+public class MessageConfig {
+
+}
